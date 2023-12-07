@@ -1,0 +1,974 @@
+@media (max-width:1439px) {
+
+    /* Hero */
+
+    .hero__content {
+        padding: 25px 130px 70px 130px;
+    }
+
+    .hero__container::before {
+        height: 70%;
+    }
+
+    .hero__container::after {
+        background-image: url("/img/hero-coffeeRight-phone.png");
+    }
+
+    .hero__content::after {
+        right: 0;
+        background-image: url("/img/hero-man-phone.png");
+        height: 36em;
+    }
+
+    .hero__savings {
+        width: 90%;
+        font-size: 38px;
+    }
+
+    .hero__price {
+        font-size: 24px;
+    }
+
+    /* Courses */
+
+    .courses__container {
+        padding: 70px 60px 70px;
+    }
+
+    .courses-title {
+        margin-bottom: 70px;
+    }
+
+    .courses__price-new {
+        font-size: 36px;
+    }
+
+    .courses__sale {
+        left: 124px;
+        font-size: 13px;
+    }
+
+    .courses__item {
+        padding-left: 15px;
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .courses__button {
+        padding: 8px 8px 8px 8px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .courses__quantity {
+        margin-bottom: 18px;
+    }
+
+    /* Presents*/
+
+    .presents {
+        padding-bottom: 50px;
+    }
+
+    .presents__container {
+        margin: 0px 50px;
+    }
+
+    .presents__title {
+        margin-bottom: 10px;
+        font-size: 95px;
+    }
+
+    .presents__text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* Form */
+
+    .form__text {
+        width: 90%;
+        font-size: 19px;
+    }
+
+    .form__agreement {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    /* Footer */
+
+    .footer__text-pc {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .footer__companyInformation-pc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    /*Hero*/
+
+    .hero__content {
+        padding: 12px 120px 72px 120px;
+    }
+
+    .hero__container::after {
+        background-image: url("/img/hero-coffeeRight-phone.png");
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero__container::before {
+        height: 100%;
+    }
+
+    .hero__savings {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .hero__price {
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .hero__buttons-toKnowMore {
+        margin-bottom: 20px;
+    }
+
+    /* Courses */
+
+    .courses__container {
+        padding: 40px 120px 40px;
+    }
+
+    .courses__cards {
+        margin-bottom: 20px;
+        width: 49%;
+    }
+
+    .courses__content {
+        flex-wrap: wrap;
+    }
+
+    /* Presents */
+
+    .presents {
+        padding-bottom: 50px;
+    }
+
+    .presents__container {
+        margin: 0;
+    }
+
+    .presents__container {
+        background: none;
+        background: url("/img/presents-group.jpg");
+    }
+
+    .presents__title {
+        font-size: 90px;
+    }
+
+    .presents__text {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    /* Form */
+
+    .form__text,
+    .form__agreement {
+        width: 100%;
+    }
+
+    .form__text {
+        font-size: 15px;
+    }
+
+    .form__container {
+        padding: 50px 120px 57px 120px;
+    }
+
+    .footer__text-pc {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .footer__companyInformation-pc {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:800px) {
+
+    /* Hero*/
+
+    .hero__content {
+        padding: 12px 55px 71px 55px;
+    }
+
+    .hero__logo-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .hero__logo-text {
+        margin-top: 7px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+
+    .hero__logo {
+        margin-bottom: 39px;
+    }
+
+    .hero__savings {
+        width: 75%;
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .hero__price {
+        margin-bottom: 25px;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: -0.04em;
+    }
+
+    .sales-date {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .sales-nameOfMonth {
+        margin-bottom: -2px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .sales-banner {
+        padding: 5px 7px 3px 7px;
+        width: 173px;
+    }
+
+    .sales-banner:not(:last-child) {
+        margin-right: 16px;
+    }
+
+    .hero__sales {
+        margin-bottom: 31px;
+    }
+
+    .btn {
+        margin-right: 8px;
+        margin-bottom: 0;
+        padding: 16px 0 16px 0;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .hero__buttons-toKnowMore {
+        width: 190px;
+    }
+
+    .hero__buttons-link:not(:last-child) {
+        margin-right: 7px;
+    }
+
+    .hero__buttons-consultation {
+        width: 213px;
+    }
+
+    .hero__container::before {
+        top: 31px;
+        left: -56px;
+    }
+
+    .hero__container::after {
+        background-image: url("/img/tablet-hero-coffeeRight.png");
+    }
+
+    .hero__content::after {
+        content: "";
+        background-image: url("/img/hero-man.png");
+        right: -16px;
+        width: 30em;
+        height: 28em;
+    }
+
+    /* Courses */
+
+    .courses__container {
+        padding: 44px 55px 18px;
+    }
+
+    .courses-title {
+        margin-bottom: 52px;
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+
+    .courses__content {
+        flex-wrap: wrap;
+    }
+
+    .courses__quantity {
+        margin-bottom: 21px;
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .courses__cards {
+        padding-top: 17px;
+        width: 23%;
+        border-radius: 5px;
+    }
+
+    .courses__price-new {
+        margin-bottom: 8px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .courses__sale {
+        top: 19px;
+        left: 97px;
+        padding: 1px 7px;
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .courses__price-old {
+        margin-bottom: 23px;
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    .courses__price-old:before {
+        top: 9px;
+        width: 75px;
+    }
+
+    .courses__cards-content {
+        padding: 0 12px 14px 14px;
+    }
+
+    .courses__item-bold {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .courses__item {
+        padding-left: 12px;
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.06em;
+    }
+
+    .courses__item:before {
+        top: 1px;
+        width: 6px;
+        height: 6px;
+    }
+
+    .courses__item:not(:last-child) {
+        margin-bottom: 11px;
+    }
+
+    .courses__prepayment {
+        margin-bottom: 4px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .courses__payment {
+        margin-bottom: 14px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .courses__button {
+        padding: 9px 18px 8px 12px;
+        font-size: 8px;
+        line-height: 11px;
+        letter-spacing: 0.01em;
+        border-radius: 5px;
+    }
+
+    .courses__Russia {
+        margin-bottom: 4px;
+    }
+
+    /* Presents */
+
+    .presents {
+        padding-bottom: 38px;
+    }
+
+    .presents__container {
+        margin: 0 55px;
+        height: 222px;
+        border-radius: 7px;
+        background: none;
+        background-image: url("/img/presents-group.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .presents__content {
+        padding: 48px 0 0 300px;
+    }
+
+    .presents__title {
+        margin-bottom: 15px;
+        font-size: 74px;
+        line-height: 68px;
+        letter-spacing: -0.01em;
+    }
+
+    .presents__text {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .presents__plus {
+        display: none;
+    }
+
+    /* Form */
+
+    .form__container {
+        padding: 23px 55px 25px 55px;
+    }
+
+    .form__title {
+        font-size: 21px;
+        margin: 0 0 11px 6px;
+        line-height: 20px;
+    }
+
+    .form__text {
+        margin-bottom: 18px;
+        width: 30%;
+        font-size: 15px;
+        line-height: 13px;
+    }
+
+    .contacts__input {
+        padding-top: 12px;
+        width: 268px;
+        height: 38px;
+        font-size: 12px;
+        line-height: 12px;
+        border-radius: 5px;
+    }
+
+    .contacts__input::placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+    }
+
+    .contacts__btn {
+        margin: 0;
+        padding: 11px 29px;
+        width: 268px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+        border-radius: 5px;
+    }
+
+    .form__agreement {
+        margin-top: 12px;
+        width: 35%;
+        font-size: 8px;
+        line-height: 8px;
+        letter-spacing: 0.1em;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 17px 0 46px 0;
+    }
+
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+
+    .footer__logo-img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .footer__logo-text {
+        margin-top: 13px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .footer__text-pc,
+    .footer__text-phone {
+        display: none;
+    }
+
+    .footer__text-tablet {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+    }
+
+    .footer__companyInformation-pc,
+    .footer__companyInformation-phone {
+        display: none;
+    }
+
+    .footer__companyInformation-tablet {
+        display: inline-block;
+        margin: 5px 0 18px 0;
+        font-size: 11px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+    }
+
+    .footer__socials-vk,
+    .footer__socials-vk-svg {
+        width: 17px;
+        height: 11px;
+    }
+
+    .footer__socials-tg,
+    .footer__socials-tg-svg {
+        width: 13px;
+        height: 11px;
+    }
+}
+
+@media (max-width:780px) {
+
+    /* Hero */
+
+    .hero__savings {
+        width: 70%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .hero__price {
+        font-size: 17px;
+    }
+
+    .hero__content::after {
+        background-image: url("/img/hero-man-phone.png");
+        right: 0px;
+        width: 14em;
+        height: 18em;
+    }
+
+    .hero__container::after {
+        background-image: url("/img/hero-coffeeRight-phone.png");
+    }
+
+    /* Courses */
+
+    .courses__price-new {
+        font-size: 45px;
+    }
+
+    .courses__quantity {
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+
+    .courses__sale {
+        left: 145px;
+    }
+
+    .courses__item {
+        font-size: 13px;
+    }
+
+    .courses__button {
+        font-size: 11px;
+    }
+
+    .courses__cards {
+        margin-bottom: 20px;
+        width: 49%;
+    }
+
+    .courses__container {
+        padding: 44px 55px 17px;
+    }
+
+    .presents__title {
+        font-size: 50px;
+    }
+
+    .presents__text {
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    /* Form */
+
+    .form__text,
+    .form__agreement {
+        width: 70%;
+    }
+
+    .footer__text-tablet {
+        font-size: 11px;
+    }
+
+    .footer__companyInformation-tablet {
+        margin: 20px 0 20px 0;
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    /* Hero*/
+
+    .hero__content {
+        padding: 15px 28px 39px 28px;
+    }
+
+    .hero__logo-img {
+        margin: 0;
+        width: 31px;
+        height: 31px;
+    }
+
+    .hero__logo-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .hero__logo {
+        margin-bottom: 29px;
+    }
+
+    .hero__savings {
+        margin-bottom: 17px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .hero__price {
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .hero__content::after {
+        right: -137px;
+        bottom: 26px;
+        width: 20em;
+        height: 27em;
+    }
+
+    .hero__sales {
+        flex-direction: column-reverse;
+        margin-bottom: 47px;
+    }
+
+    .sales-banner:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .sales-banner:last-child {
+        margin-bottom: 13px;
+    }
+
+    .hero__buttons {
+        flex-direction: column;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .hero__buttons-link:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .hero__buttons-toKnowMore {
+        margin-bottom: 7px;
+        width: 100%;
+    }
+
+    .hero__buttons-consultation {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .hero__content::after {
+        top: 71px;
+        right: 0;
+        background-image: url("/img/hero-man-phone.png");
+        z-index: -2;
+    }
+
+    .hero__content::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/img/hero-gradient-phone.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+    }
+
+    .hero__container {
+        z-index: -4;
+    }
+
+    .hero__container::after {
+        top: -76px;
+        background-image: url("/img/hero-coffeeRight-phone.png");
+        z-index: -3;
+    }
+
+    .hero__container::before {
+        top: 131px;
+        left: 0;
+        background-image: url("/img/hero-coffeeLeft-phone.png");
+        background-size: auto;
+        z-index: -1;
+    }
+
+    /* Courses */
+
+    .courses__container {
+        padding: 43px 26px 17px;
+    }
+
+    .courses-title {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .courses__content {
+        flex-direction: column;
+    }
+
+    .courses-title {
+        display: none;
+    }
+
+    .courses-title-phone {
+        display: block;
+    }
+
+    .courses__cards {
+        padding-top: 39px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .courses__quantity {
+        margin-bottom: 41px;
+        font-size: 27px;
+        line-height: 28px;
+    }
+
+    .courses__price-new {
+        margin-bottom: 6px;
+        margin-left: -2px;
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .courses__cards-content {
+        padding: 0 22px 21px 25px;
+    }
+
+    .courses__sale {
+        top: 31px;
+        left: 170px;
+        padding: 7px 11px 7px 11px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .courses__price-old {
+        margin-bottom: 33px;
+        margin-left: 2px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .courses__price-old:before {
+        top: 11px;
+        width: 109px;
+    }
+
+    .courses__item {
+        padding-left: 25px;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+    }
+
+    .courses__item:before {
+        width: 11px;
+        height: 11px;
+    }
+
+    .courses__prepayment {
+        margin-bottom: 6px;
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .courses__list {
+        margin-bottom: 29px;
+    }
+
+    .courses__payment {
+        margin-bottom: 19px;
+        margin-left: -2px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .courses__button {
+        padding: 13px 18px 6px 18px;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        border-radius: 10px;
+    }
+
+    .courses__Russia {
+        margin-bottom: 11px;
+    }
+
+    .courses__cards:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    /* Presents */
+
+    .presents {
+        padding-bottom: 35px;
+    }
+
+    .presents__container {
+        margin: 0 26px;
+        height: 87px;
+    }
+
+    .presents__content {
+        padding: 21px 0 0 117px;
+    }
+
+    .presents__title {
+        margin-bottom: 10px;
+        font-size: 29px;
+        line-height: 20px;
+        text-shadow: 0 1.3px 1px rgba(0, 0, 0, 0.7), 0 -1.3px 1px rgba(108, 108, 108, 0.5)
+    }
+
+    .presents__text {
+        font-size: 6px;
+        line-height: 9px;
+        letter-spacing: -0.04em;
+    }
+
+    /* Form */
+
+    .form__container {
+        padding: 32px 26px 21px 26px;
+    }
+
+    .form__title {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .form__text {
+        width: 80%;
+    }
+
+    .contacts__input {
+        border-radius: 10px;
+    }
+
+    .contacts__btn {
+        height: 50px;
+        font-size: 18px;
+        line-height: 23px;
+        border-radius: 10px;
+    }
+
+    .form__agreement {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 23px 0 58px 0;
+    }
+
+    .footer__logo-img {
+        margin-right: 7px;
+        width: 38px;
+        height: 34px;
+    }
+
+    .footer__logo-text {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer__text-tablet {
+        display: none;
+    }
+
+    .footer__text-phone {
+        display: block;
+        font-size: 8px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+    }
+
+    .footer__companyInformation-tablet {
+        display: none;
+    }
+
+    .footer__companyInformation-phone {
+        display: block;
+        margin: 9px 0 19px 0;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: -0.02em;
+    }
+}
