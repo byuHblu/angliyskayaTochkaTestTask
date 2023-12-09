@@ -3,8 +3,8 @@
 // Подключение к базе данных
 $servername = "localhost";
 $username = "root";
-$password = "admin";
-$dbname = "englishTochka";
+$password = "";
+$dbname = "testEnglishTochka";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -20,7 +20,7 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 
 // SQL-запрос для вставки данных в таблицу
-$sql = "INSERT INTO applications (timestamp, name, phone, email) VALUES (NOW(), '$name', '$phone', '$email')";
+$sql = "INSERT INTO applications (name, phone, email) VALUES ('$name', '$phone', '$email')";
 
 if ($conn->query($sql) === TRUE) {
 echo "Запись успешно сохранена";
