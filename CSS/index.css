@@ -10,8 +10,8 @@ html {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"),
-    url("/fonts/montserrat-bold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -19,8 +19,8 @@ html {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/montserrat-semibold-webfont.woff2") format("woff2"),
-    url("/fonts/montserrat-semibold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -28,8 +28,8 @@ html {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/montserrat-regular-webfont.woff2") format("woff2"),
-    url("/fonts/montserrat-regular-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -37,8 +37,8 @@ html {
 
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("/fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
-    url("/fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@ html {
 
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("//fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
-    url("/fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  src: url("..//fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -55,8 +55,8 @@ html {
 
 @font-face {
   font-family: "MuseoSansCyrl";
-  src: url("/fonts/MuseoSansCyrl-900.woff2") format("woff2"),
-    url("/fonts/MuseoSansCyrl-900.woff") format("woff");
+  src: url("../fonts/MuseoSansCyrl-900.woff2") format("woff2"),
+    url("../fonts/MuseoSansCyrl-900.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -64,8 +64,8 @@ html {
 
 @font-face {
   font-family: "MuseoSansCyrl";
-  src: url("/fonts/MuseoSansCyrl-500.woff2") format("woff2"),
-    url("/fonts/MuseoSansCyrl-500.woff") format("woff");
+  src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"),
+    url("../fonts/MuseoSansCyrl-500.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -73,8 +73,8 @@ html {
 
 @font-face {
   font-family: "BebasNeueCyrillic";
-  src: url("/fonts/bebasneueregular.woff2") format("woff2"),
-    url("/fonts/bebasneueregular.woff") format("woff");
+  src: url("../fonts/bebasneueregular.woff2") format("woff2"),
+    url("../fonts/bebasneueregular.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -82,8 +82,8 @@ html {
 
 @font-face {
   font-family: "HeadLineA";
-  src: url("/fonts/HeadlineA.woff2") format("woff2"),
-    url("/fonts/HeadlineA.woff") format("woff");
+  src: url("../fonts/HeadlineA.woff2") format("woff2"),
+    url("../fonts/HeadlineA.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -115,7 +115,7 @@ body {
 
 .hero__container {
   position: relative;
-  background-image: url("/img/hero-background.jpg");
+  background-image: url("../img/hero-background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/img/hero-coffeeLeft.png");
+  background-image: url("../img/hero-coffeeLeft.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
@@ -141,7 +141,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/img/hero-coffeeRight.png");
+  background-image: url("../img/hero-coffeeRight.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -158,7 +158,7 @@ body {
   bottom: 0;
   width: 45em;
   height: 43em;
-  background-image: url("/img/hero-man.png");
+  background-image: url("../img/hero-man.png");
   background-repeat: no-repeat;
   background-position: right;
   background-repeat: no-repeat;
@@ -427,7 +427,7 @@ body {
   top: 7px;
   width: 10px;
   height: 10px;
-  background-image: url("/img/courses-checkMark.png");
+  background-image: url("../img/courses-checkMark.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -500,11 +500,11 @@ body {
   margin: 0 168px;
   height: 361px;
   border-radius: 20px;
-  background: url("/img/present-coffee-left.png") top left 80px,
-    url("/img/present-coffee-right.png") bottom right,
-    url("/img/present-book-left.png") bottom 33px left 18px,
-    url("/img/present-book-right.png") top 42px left 260px,
-    url("/img/present-gradient.png"), url("/img/present-ribbon.png") top right,
+  background: url("../img/present-coffee-left.png") top left 80px,
+    url("../img/present-coffee-right.png") bottom right,
+    url("../img/present-book-left.png") bottom 33px left 18px,
+    url("../img/present-book-right.png") top 42px left 260px,
+    url("../img/present-gradient.png"), url("../img/present-ribbon.png") top right,
     linear-gradient(267.95deg, #f5c618 1.36%, #ffe481 97.73%);
   background-repeat: no-repeat;
 }
